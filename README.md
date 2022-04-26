@@ -32,7 +32,7 @@ npm start
 ```
 
 
-## 2. 填入用户配置
+## 1. 填入用户配置
 
 使用 charles 手机抓包, [Windows 教程](https://blog.csdn.net/weixin_54789946/article/details/114879602)，[MAC 教程](https://www.jianshu.com/p/6ec799ecfb15)
 
@@ -70,7 +70,7 @@ const runConfig = {
 ```
 
 
-## 3. 邮件通知配置
+## 2. 邮件通知配置
 
 - 需要准备发送邮箱和接收邮箱（发送邮箱和接收邮箱可以为同一个）
 
