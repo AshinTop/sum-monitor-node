@@ -1,0 +1,31 @@
+{
+  "name": "sum-monitor-node",
+  "version": "1.0.0",
+  "description": "山姆保供套餐监控nodejs脚本",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshinTop/sum-monitor-node.git"
+  },
+  "keywords": [
+    "sam",
+    "nodejs"
+  ],
+  "author": "AshinTop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AshinTop/sum-monitor-node/issues"
+  },
+  "homepage": "https://github.com/AshinTop/sum-monitor-node#readme",
+  "dependencies": {
+    "emailjs": "^3.8.1",
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
