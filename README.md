@@ -37,7 +37,19 @@ npm start
 使用 charles 手机抓包, [Windows 教程](https://blog.csdn.net/weixin_54789946/article/details/114879602)，[MAC 教程](https://www.jianshu.com/p/6ec799ecfb15)
 
 ```
-
+// 一、使用 charles 手机抓包，获取以下参数：
+const userConfig = {
+  // -----------------------------------------------
+  // 打开山姆app，点击分类->甄选美味，在charles中找到/api/v1/sams/goods-portal/grouping/list
+  // (1)在header中找到
+  authtoken: '',
+  longitude: '',
+  deviceid: '',
+  latitude: '',
+  // (2) 复制Request
+  data: {}
+    
+}
 
 ```
 
